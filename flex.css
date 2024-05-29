@@ -1,0 +1,14 @@
+.parent{ background-color: yellow;
+display:flex; 
+justify-content:space-between;}
+.ch{
+    height:200px;
+    width:200px;
+     background-color:green;
+     border: 2px solid;
+}
+.burger{background-color: blueviolet;
+display: flex;
+justify-content: space-around;
+gap:40px;
+padding:30px;}
