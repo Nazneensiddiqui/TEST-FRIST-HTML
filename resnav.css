@@ -1,0 +1,48 @@
+.nevbar{
+    background-color: yellow;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.nevbar ul{
+    display: flex;
+    list-style: none;
+    gap:30px;
+}
+.nevbar label{display: none;
+}
+.nevbar lable i{ color: blue;}
+
+#demo:checked~.head ul{
+    display: block;
+}
+#demo {
+    display: none;
+}
+.head ul{
+    display: none;
+    
+}
+
+
+@media screen and (max-width:600px) 
+ {
+    .nevbar label{
+        display: block;
+    }
+    .nevbar ul{ display: none;
+    }
+    .nevbar{
+        height: 80px;
+    }
+    .head ul {
+        display: none;
+        list-style: none;
+        position: absolute;
+        top:100px;
+        
+    
+    }
+
+}
